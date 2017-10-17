@@ -1,0 +1,7 @@
+#Fri Jul 28 18:14:20 CST 2017
+base.0=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV11\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1b37636bcb9c1f7990b526147cbd379fc87408e4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV11\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_dca819cb1bbd6efbdd58c2a1a1002ae9bd0c7660\\classes.dex
+base.1=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV11\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_dca819cb1bbd6efbdd58c2a1a1002ae9bd0c7660
+file.0=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV11\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1b37636bcb9c1f7990b526147cbd379fc87408e4\\classes.dex

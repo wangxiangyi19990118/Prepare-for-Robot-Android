@@ -1,0 +1,81 @@
+[
+    {
+        "outputFile": "C:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 39,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "C:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 39,
+                        "endOffset": 133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 39,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "C:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\wxy\\Documents\\Tencent Files\\731362676\\FileRecv\\MissionV1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 39,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "C:\\Users\\wxy\\Documents\\Tencent Files\\731362676\\FileRecv\\MissionV1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 39,
+                        "endOffset": 133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 39,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "C:\\Users\\wxy\\Documents\\Tencent Files\\731362676\\FileRecv\\MissionV1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 92
+                    }
+                }
+            }
+        ]
+    }
+]

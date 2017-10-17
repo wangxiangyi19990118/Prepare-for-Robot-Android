@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Sat Aug 05 13:15:14 CST 2017
+2.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\logo.png
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ouc_new.png
+2.set=ANDROID_RESOURCE
+4.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\mission.png
+7.set=ANDROID_RESOURCE
+count=8
+0.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\myvideo.xml
+5.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\mymainfrm.xml
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+3.set=ANDROID_RESOURCE
+1.base=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\wkp\\Desktop\\RobotCode\\MissionV1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\pictureshow.xml
+0.set=ANDROID_RESOURCE

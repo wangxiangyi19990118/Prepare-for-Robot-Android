@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <wificar.MySurfaceView
+                android:id="@+id/mySurfaceViewVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <wificar.MySurfaceView
+                android:id="@+id/mySurfaceViewVideo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ouc_new" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ouc_new" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/mission" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/mission" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/TakePhoto"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:text="拍照"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ViewPhoto"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/TakePhoto"
+        android:layout_x="90dp"
+        android:text="查看"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TakePhoto"
+        android:text="前"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_forward"
+        android:text="后"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_backward"
+        android:text="左"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_left"
+        android:text="右"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_right"
+        android:text="停"
+        android:visibility="gone" />
+
+</RelativeLayout>
