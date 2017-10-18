@@ -26,7 +26,7 @@ import com.kongqw.rockerlibrary.R;
  */
 public class RockerView extends View {
     private static final String TAG = "RockerView";
-
+    public static float LENXY=0;
     private static final int DEFAULT_SIZE = 400;
     private static final int DEFAULT_ROCKER_RADIUS = DEFAULT_SIZE / 8;
 
@@ -42,6 +42,7 @@ public class RockerView extends View {
     private CallBackMode mCallBackMode = CallBackMode.CALL_BACK_MODE_MOVE;
     private OnAngleChangeListener mOnAngleChangeListener;
     private OnShakeListener mOnShakeListener;
+    private OnShakeListener mOnT;
 
     private DirectionMode mDirectionMode;
     private Direction tempDirection = Direction.DIRECTION_CENTER;
@@ -287,7 +288,6 @@ public class RockerView extends View {
         }
         return true;
     }
-
     /**
      * 获取摇杆实际要显示的位置（点）
      *
@@ -310,7 +310,7 @@ public class RockerView extends View {
         double angle = radian2Angle(radian);
 
         // 回调 返回参数
-        callBack(angle);
+        callBack(angle,lenXY);
 
         Logger.i(TAG, "getRockerPositionPoint: 角度 :" + angle);
         if (lenXY + rockerRadius <= regionRadius) { // 触摸位置在可活动范围内
@@ -365,7 +365,6 @@ public class RockerView extends View {
         drawable.draw(canvas);
         return bitmap;
     }
-
     /**
      * 回调
      * 开始
@@ -386,9 +385,10 @@ public class RockerView extends View {
      *
      * @param angle 摇动角度
      */
-    private void callBack(double angle) {
+    private void callBack(double angle,double length) {
         if (null != mOnAngleChangeListener) {
             mOnAngleChangeListener.angle(angle);
+            mOnAngleChangeListener.location(length);
         }
         if (null != mOnShakeListener) {
             if (CallBackMode.CALL_BACK_MODE_MOVE == mCallBackMode) {
@@ -668,6 +668,8 @@ public class RockerView extends View {
          */
         void direction(Direction direction);
 
+        //void location(double length);
+
         // 结束
         void onFinish();
     }
@@ -688,5 +690,7 @@ public class RockerView extends View {
 
         // 结束
         void onFinish();
+
+        void location(double length);
     }
 }

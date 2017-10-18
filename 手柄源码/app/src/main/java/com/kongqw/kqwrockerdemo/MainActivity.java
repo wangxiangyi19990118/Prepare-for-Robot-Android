@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mLogLeft;
     private TextView mLogRight;
+    private TextView lenView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mLogLeft = (TextView) findViewById(R.id.log_left);
         mLogRight = (TextView) findViewById(R.id.log_right);
+        lenView =(TextView)  findViewById(R.id.getLength) ;
 
         RockerView rockerViewLeft = (RockerView) findViewById(R.id.rockerView_left);
         if (rockerViewLeft != null) {
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void direction(RockerView.Direction direction) {
                     mLogLeft.setText("摇动方向 : " + getDirection(direction));
+
                 }
 
                 @Override
@@ -50,8 +53,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void angle(double angle) {
                     mLogRight.setText("摇动角度 : " + angle);
-                }
 
+                }
+                @Override
+                public void location(double length ) {
+                    lenView.setText("长度: " + length);
+                }
                 @Override
                 public void onFinish() {
                     mLogRight.setText(null);
